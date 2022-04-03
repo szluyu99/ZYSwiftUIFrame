@@ -1,0 +1,9 @@
+#server:
+#  port: 1016
+datasource:
+  driverName: mysql
+  host: 127.0.0.1
+  port: 3306
+  database: testpro # 修改成你的数据库名
+  username: root # 修改成你自己的数据库用户名
+  password: lzy123456 # 修改成你自己的数据库密码

@@ -1,0 +1,61 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://gitee.com/idoing/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "f82c23a8a7ef8dc1a49a8bfc6a96883e79121864",
+          "version": "5.5.0"
+        }
+      },
+      {
+        "package": "BBSwiftUIKit",
+        "repositoryURL": "https://gitee.com/RDCenter/BBSwiftUIKit.git",
+        "state": {
+          "branch": "master",
+          "revision": "79acb0849c303be8bf955d1d1eea7893cdd52b2d",
+          "version": null
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage.git",
+        "state": {
+          "branch": null,
+          "revision": "2e63d0061da449ad0ed130768d05dceb1496de44",
+          "version": "5.12.5"
+        }
+      },
+      {
+        "package": "SDWebImageSwiftUI",
+        "repositoryURL": "https://gitee.com/szluyu99/SDWebImageSwiftUI.git",
+        "state": {
+          "branch": "master",
+          "revision": "336d3f6d3b53729c1f274bf6b75f4532ada116eb",
+          "version": null
+        }
+      },
+      {
+        "package": "SwiftUIImageViewer",
+        "repositoryURL": "https://gitee.com/wei_wen_yue/swiftui-image-viewer",
+        "state": {
+          "branch": "master",
+          "revision": "5e6d08be4d9fb7d417d902342b395be1c87e5bbb",
+          "version": null
+        }
+      },
+      {
+        "package": "URLImage",
+        "repositoryURL": "https://gitee.com/wei_wen_yue/url-image.git",
+        "state": {
+          "branch": null,
+          "revision": "ccab89ad1cedb04f25dd4df1776dd8c8583b914a",
+          "version": "2.2.5"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
