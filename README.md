@@ -1,3 +1,9 @@
+Gitee 地址：[https://gitee.com/szluyu99/ZYSwiftUIFrame](https://gitee.com/szluyu99/ZYSwiftUIFrame)
+
+Github 地址：[https://github.com/szluyu99/ZYSwiftUIFrame](https://github.com/szluyu99/ZYSwiftUIFrame)
+
+本项目主要维护 Github 地址，同时会同步将其推送到 Gitee 地址（相当于镜像）
+
 ## 前言
 
 我并不是专业的 IOS 开发人员，之前也没有接触过 IOS，但是因为某些原因，团队需要开发一个 IOS App，然后我便接触到了 Swift 和 SwiftUI，当然，我并没有学 OC 和 UIKit。该项目中几乎没有用到 UIKit 相关的东西（有也是谷歌搜索到了代码直接复制一下），基本上完全使用 SwiftUI 进行开发。
