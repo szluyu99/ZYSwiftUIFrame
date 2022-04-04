@@ -40,6 +40,10 @@
 		84ACD9EB27F5A44400C9C5C8 /* MessageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ACD9EA27F5A44400C9C5C8 /* MessageVM.swift */; };
 		84ACD9ED27F5A4C800C9C5C8 /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ACD9EC27F5A4C800C9C5C8 /* MessageListView.swift */; };
 		84ACD9EF27F5B78500C9C5C8 /* MessageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ACD9EE27F5B78500C9C5C8 /* MessageDetailView.swift */; };
+		84B82ABA27FB32380053C29B /* MapDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B82AB927FB32380053C29B /* MapDemo.swift */; };
+		84B82ABC27FB33510053C29B /* MapNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B82ABB27FB33510053C29B /* MapNavigation.swift */; };
+		84B82ABE27FB34080053C29B /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B82ABD27FB34080053C29B /* LocationViewModel.swift */; };
+		84B82AC227FB402D0053C29B /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B82AC127FB402D0053C29B /* NotificationView.swift */; };
 		84C089D927F5D52F0059AA1A /* MeetingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C089D827F5D52F0059AA1A /* MeetingAPI.swift */; };
 		84C089DB27F5D55A0059AA1A /* MeetingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C089DA27F5D55A0059AA1A /* MeetingVM.swift */; };
 		84C089DD27F5D5BB0059AA1A /* MeetingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C089DC27F5D5BB0059AA1A /* MeetingListView.swift */; };
@@ -83,6 +87,10 @@
 		84ACD9EA27F5A44400C9C5C8 /* MessageVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVM.swift; sourceTree = "<group>"; };
 		84ACD9EC27F5A4C800C9C5C8 /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
 		84ACD9EE27F5B78500C9C5C8 /* MessageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailView.swift; sourceTree = "<group>"; };
+		84B82AB927FB32380053C29B /* MapDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDemo.swift; sourceTree = "<group>"; };
+		84B82ABB27FB33510053C29B /* MapNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNavigation.swift; sourceTree = "<group>"; };
+		84B82ABD27FB34080053C29B /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		84B82AC127FB402D0053C29B /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		84C089D827F5D52F0059AA1A /* MeetingAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingAPI.swift; sourceTree = "<group>"; };
 		84C089DA27F5D55A0059AA1A /* MeetingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingVM.swift; sourceTree = "<group>"; };
 		84C089DC27F5D5BB0059AA1A /* MeetingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingListView.swift; sourceTree = "<group>"; };
@@ -167,9 +175,11 @@
 				848A976127F82C3700B6DC03 /* Upload */,
 				84ACD9E327F5A34700C9C5C8 /* Message */,
 				84ACD9E027F59EE600C9C5C8 /* Meeting */,
+				84B82AB827FB31FB0053C29B /* Map */,
+				84B82AC027FB401D0053C29B /* Notification */,
+				84B82ABF27FB40100053C29B /* About */,
 				844B4BAF27F594A900D329F2 /* ZYSwiftUIFrameApp.swift */,
 				844B4BB127F594A900D329F2 /* ContentView.swift */,
-				847443C327F8937500E92F16 /* AboutView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -262,6 +272,32 @@
 				84ACD9EE27F5B78500C9C5C8 /* MessageDetailView.swift */,
 			);
 			path = Message;
+			sourceTree = "<group>";
+		};
+		84B82AB827FB31FB0053C29B /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				84B82AB927FB32380053C29B /* MapDemo.swift */,
+				84B82ABB27FB33510053C29B /* MapNavigation.swift */,
+				84B82ABD27FB34080053C29B /* LocationViewModel.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		84B82ABF27FB40100053C29B /* About */ = {
+			isa = PBXGroup;
+			children = (
+				847443C327F8937500E92F16 /* AboutView.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		84B82AC027FB401D0053C29B /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				84B82AC127FB402D0053C29B /* NotificationView.swift */,
+			);
+			path = Notification;
 			sourceTree = "<group>";
 		};
 		84E87C9E27F86BE5006E46AF /* User */ = {
@@ -366,11 +402,14 @@
 				84ACD9DD27F59E1E00C9C5C8 /* Constants.swift in Sources */,
 				84E87CA027F86F1B006E46AF /* User.swift in Sources */,
 				84ACD9EB27F5A44400C9C5C8 /* MessageVM.swift in Sources */,
+				84B82AC227FB402D0053C29B /* NotificationView.swift in Sources */,
+				84B82ABC27FB33510053C29B /* MapNavigation.swift in Sources */,
 				84ACD9ED27F5A4C800C9C5C8 /* MessageListView.swift in Sources */,
 				84C089DF27F5D6D60059AA1A /* ButtonView.swift in Sources */,
 				84C089D927F5D52F0059AA1A /* MeetingAPI.swift in Sources */,
 				84ACD9E227F5A31000C9C5C8 /* Meeting.swift in Sources */,
 				848A976327F82C5100B6DC03 /* Upload.swift in Sources */,
+				84B82ABA27FB32380053C29B /* MapDemo.swift in Sources */,
 				84ACD9D127F59B2100C9C5C8 /* ZYRefreshView.swift in Sources */,
 				84ACD9CE27F59ACB00C9C5C8 /* CommonVM.swift in Sources */,
 				847443C427F8937500E92F16 /* AboutView.swift in Sources */,
@@ -379,6 +418,7 @@
 				84ACD9CC27F59A5300C9C5C8 /* CommonApiObj.swift in Sources */,
 				84ACD9D627F59B7F00C9C5C8 /* ZYListView.swift in Sources */,
 				84ACD9DF27F59E8500C9C5C8 /* Extensions.swift in Sources */,
+				84B82ABE27FB34080053C29B /* LocationViewModel.swift in Sources */,
 				84C089DD27F5D5BB0059AA1A /* MeetingListView.swift in Sources */,
 				84ACD9E927F5A3F500C9C5C8 /* MessageAPI.swift in Sources */,
 				84E87CA627F870A0006E46AF /* UserListView.swift in Sources */,
@@ -528,7 +568,9 @@
 				DEVELOPMENT_TEAM = BT34MG3U8S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "请允许获取地理位置的权限";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "请允许获取地理位置的权限";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "请允许使用相册的权限";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -558,7 +600,9 @@
 				DEVELOPMENT_TEAM = BT34MG3U8S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "请允许获取地理位置的权限";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "请允许获取地理位置的权限";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "请允许使用相册的权限";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

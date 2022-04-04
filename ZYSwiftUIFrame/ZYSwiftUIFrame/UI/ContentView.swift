@@ -34,11 +34,16 @@ struct ContentView: View {
                         Text("（无需开启服务端）")
                     }
                 }
-                NavigationLink(destination: Text("地图相关（待完善）")) {
+                NavigationLink(destination: MapDemo()) {
                     HStack {
-                        Text("地图相关")
+                        Text("高德地图示例")
                         Spacer()
-                        Text("（待完善...）")
+                    }
+                }
+                NavigationLink(destination: NotificationView()) {
+                    HStack {
+                        Text("本地消息推送")
+                        Spacer()
                     }
                 }
                 NavigationLink(destination: AboutView()) {
