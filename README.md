@@ -1,3 +1,9 @@
+Gitee 地址：[https://gitee.com/szluyu99/ZYSwiftUIFrame](https://gitee.com/szluyu99/ZYSwiftUIFrame)
+
+Github 地址：[https://github.com/szluyu99/ZYSwiftUIFrame](https://github.com/szluyu99/ZYSwiftUIFrame)
+
+本项目主要维护 Github 地址，同时会同步将其推送到 Gitee 地址（相当于镜像）
+
 ## 前言
 
 我并不是专业的 IOS 开发人员，之前也没有接触过 IOS，但是因为某些原因，团队需要开发一个 IOS App，然后我便接触到了 Swift 和 SwiftUI，当然，我并没有学 OC 和 UIKit。该项目中几乎没有用到 UIKit 相关的东西（有也是谷歌搜索到了代码直接复制一下），基本上完全使用 SwiftUI 进行开发。
@@ -36,9 +42,26 @@ IOS 技术栈：基于 Swift 语言
 
 ## 项目预览
 
+![](https://img-blog.csdnimg.cn/img_convert/e252d7cc96b135c753e246991cfa8691.png)
+
 ### 1. 不需要开启服务端
 
 不需要开启服务端，功能是下面 “需要开启服务端” 功能的简化版，仅用于本地演示，并且不涉及到数据请求。
+
+#### 1.1 用户列表
+
+下拉刷新、上拉加载更多：
+
+![](https://img-blog.csdnimg.cn/img_convert/03e3ffbbd9fdce04a05309bd8830dae3.gif)
+
+新增、删除、修改：
+
+![](https://img-blog.csdnimg.cn/img_convert/5d05aac8252709be10257c9173dc8e97.gif)
+
+
+帮助、搜索：
+
+![](https://img-blog.csdnimg.cn/img_convert/63b7e4d967321cb254bda5ac418408df.gif)
 
 ### 2. 需要开启服务端
 
@@ -48,7 +71,7 @@ IOS 技术栈：基于 Swift 语言
 
 上拉、下拉、删除：
 
-![](https://img-blog.csdnimg.cn/img_convert/4d279658a394ddff64970646989e207d.gif)
+![](https://img-blog.csdnimg.cn/img_convert/e9bebd97d19257d014da9ccae62fb2c7.gif)
 
 
 
@@ -56,15 +79,15 @@ IOS 技术栈：基于 Swift 语言
 
 显示帮助、删除、下拉刷新、搜索：
 
-![](https://img-blog.csdnimg.cn/img_convert/e40740280bf73ee52f95580ff7d90d64.gif)
+![](https://img-blog.csdnimg.cn/img_convert/96080cbef5b6483f98917b8108b6a99d.gif)
 
 更新、新增：
 
-![](https://img-blog.csdnimg.cn/img_convert/77de3f3c98e008ced451a8ba8d7a5921.gif)
+![](https://img-blog.csdnimg.cn/img_convert/3e50cf14f2941307a5c3130be70b403d.gif)
 
 图片上传、预览、删除、保存：
 
-![](https://img-blog.csdnimg.cn/img_convert/7b80435974934c1d090d2a72178a51fe.gif)
+![](https://img-blog.csdnimg.cn/img_convert/e0bdc66530fcabea91e058101b0f246a.gif)
 
 
 
@@ -90,7 +113,7 @@ IOS 技术栈：基于 Swift 语言
 
 查看电脑当前 IP 的方法：在网络偏好设置查看。
 
-![](https://img-blog.csdnimg.cn/img_convert/68a313969742a7f2326814347b5bedb2.png)
+![](https://img-blog.csdnimg.cn/img_convert/057ea9fa3f18e93d54d8474936713096.png)
 
 ### 运行服务端项目
 
@@ -113,3 +136,9 @@ IOS 技术栈：基于 Swift 语言
 #### 文件上传目录
 
 文件上传到本地，目前写死是 `uploads/file` 目录。
+
+#### 后台接口文档
+
+该接口文档由 ApiPost 生成：
+
+[https://console-docs.apipost.cn/cover.html?url=36557b241534caed&salt=6015c9b386e133e0](https://console-docs.apipost.cn/cover.html?url=36557b241534caed&salt=6015c9b386e133e0)
